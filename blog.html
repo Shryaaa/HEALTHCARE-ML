@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Data Science with Healthcare | Shreya Bhattacharjee</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom Styles -->
+    <style>
+      body {
+        background: #f5f7fa;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+      /* Hero Section */
+      .hero {
+        position: relative;
+        background: url('https://source.unsplash.com/1600x900/?healthcare,technology') no-repeat center center;
+        background-size: cover;
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+      }
+      .hero::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.6);
+      }
+      .hero-content {
+        position: relative;
+        text-align: center;
+        z-index: 1;
+      }
+      .hero-content h1 {
+        font-size: 2.5rem;
+        font-weight: 700;
+      }
+      /* Card Styling */
+      .post-card {
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        padding: 2rem;
+        margin-top: -40px;
+      }
+      .post-card h2,
+      .post-card h3 {
+        color: #333;
+      }
+      .post-card p,
+      .post-card li {
+        line-height: 1.7;
+        font-size: 1rem;
+        color: #555;
+      }
+      .post-card ol, .post-card ul {
+        margin-left: 1.5rem;
+      }
+      /* Section Headings */
+      .section-heading {
+        border-bottom: 2px solid #f8b500;
+        display: inline-block;
+        padding-bottom: 5px;
+        margin-bottom: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Data Science with Healthcare</h1>
+        <p class="lead">Unveiling our advanced symptom-based disease diagnosis web app</p>
+      </div>
+    </section>
+
+    <!-- Main Content -->
+    <div class="container">
+      <div class="post-card my-5">
+        <h2 class="text-center mb-4">Data Science with Healthcare: Unveiling Our Symptom-Based Disease Diagnosis Web App with Flask and Machine Learning Technology</h2>
+
+        <p>In today's tech-driven world, access to prompt and accurate healthcare information is more crucial than ever. As remote healthcare solutions gain prominence, we have embarked on an exciting journey to develop a cutting-edge symptom-based disease diagnosis web application. By harnessing the power of Flask for the backend and a Decision Tree Classifier model, we’ve created an intuitive platform that enables users to swiftly identify potential illnesses based on their reported symptoms.</p>
+
+        <h3 class="section-heading mt-4">The Challenge</h3>
+        <p>Our project began with a fundamental realization: people frequently experience symptoms and seek rapid insights into their health concerns. Differentiating between various diseases, especially when symptoms overlap, can be daunting. Our mission was to provide a seamless solution that allows users to input their symptoms and receive potential diagnoses quickly.</p>
+
+        <h3 class="section-heading mt-4">The Solution</h3>
+        <p>We have crafted a web app that empowers users to enter a list of symptoms they are experiencing. The app employs a pre-trained Decision Tree Classifier model to predict the most likely disease based on these symptoms. Here’s how it unfolds:</p>
+        <ol>
+          <li><strong>Symptom Input:</strong> Users enter their symptoms through a user-friendly interface. The app supports a wide range of symptoms, ensuring versatility across different scenarios.</li>
+          <li><strong>Machine Learning Model:</strong> Our Decision Tree Classifier, trained on a comprehensive dataset of symptoms and corresponding diseases, efficiently predicts potential illnesses, even handling variations in symptom synonyms.</li>
+          <li><strong>Prediction:</strong> Leveraging the power of machine learning, the app provides instant predictions of the most likely disease, delivering valuable insights into potential health concerns.</li>
+          <li><strong>Additional Information:</strong> To enrich the user experience, the app offers detailed information about the predicted disease, including descriptions, recommended precautions, medications, dietary advice, and workout tips.</li>
+          <li><strong>Speech Recognition:</strong> For added convenience, the app features speech recognition, allowing users to input symptoms verbally.</li>
+          <li><strong>User Records:</strong> Users can enter their name, age, and location to maintain records and personalize their experience, aiding in effective data management and tracking.</li>
+        </ol>
+
+        <h3 class="section-heading mt-4">Key Features</h3>
+        <ul>
+          <li><strong>User-Friendly Interface:</strong> An intuitive and easy-to-navigate interface that simplifies symptom input.</li>
+          <li><strong>Case-Insensitive & Synonym-Supported Input:</strong> The app recognizes synonyms and handles case-insensitive inputs to enhance usability.</li>
+          <li><strong>Precise Predictions:</strong> Advanced machine learning delivers accurate disease predictions based on user-provided symptoms.</li>
+          <li><strong>Comprehensive Information:</strong> Detailed insights into each predicted disease, including health tips and precautions.</li>
+          <li><strong>Educational Content:</strong> Informative blog posts on various health topics empower users with valuable knowledge.</li>
+          <li><strong>Speech Recognition:</strong> Verbal symptom input improves accessibility and user experience.</li>
+          <li><strong>User Records:</strong> Personal details help track health history and personalize the experience.</li>
+        </ul>
+
+        <h3 class="section-heading mt-4">Conclusion</h3>
+        <p>This symptom-based disease diagnosis web app represents a fusion of machine learning and healthcare, delivering essential health insights directly to users. Our innovative platform is designed to make healthcare more accessible and user-centric, marking a significant advancement in remote healthcare solutions. We envision this project as a catalyst for enhanced health awareness and improved well-being worldwide.</p>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-3">
+      <div class="container text-center">
+        <p class="mb-0">&copy; 2025 Shreya Bhattacharjee. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
